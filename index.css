@@ -1,0 +1,61 @@
+body{
+    background-image: url("resources/download.jpeg");
+    background-size: cover;
+    height: 1000px;
+}
+
+.counting{
+    font-size: large;
+    font: bold;
+    color: black;
+}
+
+.heading{
+    font-size: large;
+    font: bold;
+    color: black;
+}
+
+#increase{
+    background-color: green;
+    border: 20px;
+    border-color: black;
+    color: white;
+    font: bold;
+    font-size: medium;
+    height:30px;
+    width:200px;
+}
+#reSet{
+    background-color: red;
+    border: 20px;
+    border-color: black;
+    color: white;
+    font: bold;
+    font-size: medium;
+    height:30px;
+    width:200px;
+}
+#save{
+    margin: 20px;
+    background-color: rgb(184, 53, 211);
+    border: 20px;
+    border-color: black;
+    color: white;
+    font: bold;
+    font-size: medium;
+    height:30px;
+    width:200px;
+}
+
+button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+#save-el{
+    /* font: 200px; */
+    font: bold;
+}
